@@ -1,0 +1,50 @@
+/* ** Header styles *** */
+
+
+
+nav {
+    margin: 0 0 15px 0;
+}
+
+/* Body Styles */
+
+.major-section {
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+#top {
+    border-top-color: white;
+}
+
+.left-side {
+    text-align: right;
+    border-top-width: 5px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.minor-section {
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.card-body {
+    margin: 0 0 15px 0;
+}
+
+#LIcard {
+    max-width: 100%;;
+}
