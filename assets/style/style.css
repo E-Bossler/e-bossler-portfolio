@@ -41,9 +41,9 @@ nav {
     text-align: left;
 }
 
-.card-body {
+.card-body, .form-row, .form-group, .btn-primary {
     margin: 0 0 15px 0;
-}
+} 
 
 #LIcard {
     max-width: 100%;;
