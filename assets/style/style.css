@@ -48,3 +48,34 @@ nav {
 #LIcard {
     max-width: 100%;;
 }
+
+/* Corner Art Styles */
+
+.cornerArt {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px  2px 0;
+    z-index: -1;
+}
+
+#divOne  {
+    background-image: linear-gradient(to bottom right,  white, rgb(0, 174, 255));
+    float: left;
+}
+
+#divTwo {
+    background-image: linear-gradient(to top right, rgb(0, 174, 255), white);
+    float: left;
+}
+
+#divFour {
+    background-image: linear-gradient(to bottom left,  rgb(0, 174, 255), white);
+    position: absolute;
+    margin: 12px 0 0 0 ;
+}
+
+#divFive {
+    background-image: linear-gradient(to bottom right,  rgb(0, 174, 255), white);
+    position: absolute;
+    margin: 12px 0 0 12px ;
+}
