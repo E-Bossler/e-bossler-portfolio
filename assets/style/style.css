@@ -4,6 +4,7 @@
 
 nav {
     margin: 0 0 15px 0;
+    background-image: linear-gradient(to bottom, lightskyblue, white);
 }
 
 /* Body Styles */
@@ -49,13 +50,43 @@ nav {
     max-width: 100%;;
 }
 
-.screenshots {
-    float: left;
-    width: 50%;
+img {
+    max-width: 100%;
+    padding: 0 0 15px 0 ;
 }
 
-.SWscreenshots {
+#rushmore {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+.screenshots {
+    float: left;
+    padding: 0 0 15px 0 ;
     width: 100%;
+}
+
+#uw-btn {
+    background-color: #33006f;
+    color: #ECDCA8;
+}
+
+#wsu-btn {
+    background-color: black;
+    color: #ffd200;
+}
+
+#bc-btn {
+    background-image: linear-gradient(to bottom right, black, #b42643);
+    color: white;
+}
+
+#li-btn {
+    background-image: linear-gradient(to bottom right, #0077B5, #333333);
+    color: white;
 }
 
 /* Corner Art Styles */
