@@ -49,6 +49,15 @@ nav {
     max-width: 100%;;
 }
 
+.screenshots {
+    float: left;
+    width: 50%;
+}
+
+.SWscreenshots {
+    width: 100%;
+}
+
 /* Corner Art Styles */
 
 .cornerArt {
